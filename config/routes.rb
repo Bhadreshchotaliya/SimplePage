@@ -4,6 +4,10 @@ Rails.application.routes.draw do
 	
 	root 'firstpage#home'
 	get 'about', to: 'firstpage#about'
+	resources :articles  
 
-	resources :articles
+	
+
+
+
 end
